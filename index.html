@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Montdor Interiors | Interior Design for Beautiful, Livable Homes</title>
+<meta name="description" content="Interior design for homes: full-home design, room refreshes, color and material selection, and styling. Draft site.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+<header class="nav">
+  <button class="burger" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">MENU</button>
+  <a class="wordmark" href="index.html"><b>MONTDOR</b><i>INTERIORS</i></a>
+  <ul class="nav-menu" id="menu">
+    <li><a href="about.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a><div class="drop"><a href="interior-design.html">Interior Design</a><a href="interior-furnishings.html">Interior Furnishings</a><a href="basements.html">Basements</a></div></li>
+    <li><a href="process.html">Process</a><div class="drop"><a href="process.html">The Process</a><a href="coordination.html">Coordination</a><a href="delivery.html">Delivery</a></div></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</header>
+
+<main id="top">
+<section class="slides" aria-label="Featured projects"><img src="images/kitchen.jpg" alt=""><img src="images/living.jpg" alt=""><img src="images/bedroom-main.jpg" alt=""><img src="images/dining.jpg" alt=""><img src="images/rosedale-kitchen.jpg" alt=""><img src="images/fireplace.jpg" alt=""></section>
+<section class="entry">
+  <img class="pic" src="images/hall.jpg" alt="">
+</section>
+<section class="hero">
+  <p class="eyebrow">Our Services</p>
+  <h1>Providing White Glove Services to our clientele</h1>
+  <p class="lead">Our design studio conscientiously oversees even the most intricate home and commercial design projects with professionalism and precision.</p>
+  <p class="lead">Through our seamless concept-to-completion approach, clients are able to realize their design and renovation goals with complete peace of mind.</p>
+  <p>Over the past several decades, Montdor Interiors has cultivated and refined strong relationships with exceptional trades, manufacturers, suppliers, and artisans, all of whom share our commitment to quality, craftsmanship and excellence.</p>
+  <div class="cta-row">
+    <a class="btn" href="#contact">Book a free consultation</a>
+    <a class="btn ghost" href="#work">See our projects</a>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <h2>What we do</h2>
+  <div class="grid3">
+    <article class="card"><h3>Full-home design</h3><p>A complete plan for your home: layout, lighting, finishes, furniture and decor, all working together.</p></article>
+    <article class="card"><h3>Room refresh</h3><p>Kitchen, living room, bedroom or nursery. A focused redesign of one space, on a clear budget.</p></article>
+    <article class="card"><h3>Color &amp; materials</h3><p>Paint, flooring, tile, countertops and fabrics selected to suit your light, your style and your life.</p></article>
+    <article class="card"><h3>Furniture &amp; styling</h3><p>Sourcing and placing furniture, art and accessories so the finished room feels complete.</p></article>
+    <article class="card"><h3>Renovation planning</h3><p>Design drawings and finish schedules that your contractor can build from.</p></article>
+    <article class="card"><h3>Online design</h3><p>Not local? Get a full design package remotely, with a shopping list and step-by-step guide.</p></article>
+  </div>
+</section>
+
+<section id="work" class="section alt">
+  <h2>Selected projects</h2>
+  
+  <div class="grid3 gallery">
+    <figure><img class="pic" style="width:100%;max-width:none;object-fit:cover;aspect-ratio:4/3" src="images/kitchen.jpg" alt=""><figcaption>Modern family kitchen</figcaption></figure>
+    <figure><img class="pic" style="width:100%;max-width:none;object-fit:cover;aspect-ratio:4/3" src="images/bedroom-main.jpg" alt=""><figcaption>Calm primary bedroom</figcaption></figure>
+    <figure><img class="pic" style="width:100%;max-width:none;object-fit:cover;aspect-ratio:4/3" src="images/living.jpg" alt=""><figcaption>Bright open living room</figcaption></figure>
+    <figure><img class="pic" style="width:100%;max-width:none;object-fit:cover;aspect-ratio:4/3" src="images/dining.jpg" alt=""><figcaption>Warm dining space</figcaption></figure>
+    <figure><img class="pic" style="width:100%;max-width:none;object-fit:cover;aspect-ratio:4/3" src="images/ensuite.jpg" alt=""><figcaption>Spa-style bathroom</figcaption></figure>
+    <figure><img class="pic" style="width:100%;max-width:none;object-fit:cover;aspect-ratio:4/3" src="images/office.jpg" alt=""><figcaption>Home office</figcaption></figure>
+  </div>
+</section>
+
+<section id="process" class="section">
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li><b>1. Consultation</b><span>We talk about your home, your style and your budget.</span></li>
+    <li><b>2. Concept</b><span>You receive mood boards, a layout and a color palette.</span></li>
+    <li><b>3. Design</b><span>Detailed plans, selections and a clear shopping list.</span></li>
+    <li><b>4. Install &amp; style</b><span>We coordinate delivery and finish the room with the final touches.</span></li>
+  </ol>
+</section>
+
+<section id="about" class="section alt about">
+  <div>
+    <h2>Meet Sheila</h2>
+    <p>Sheila designs homes that are warm, practical and personal. Her approach is simple: listen first, then design around how you really live.</p>
+  </div>
+  <img class="pic" src="images/headshot.jpg" alt="">
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Let's design your home</h2>
+  <p class="sub">Tell us about your project and we'll reply within one business day.</p>
+  <form action="#" method="post" onsubmit="event.preventDefault();alert('Draft form: not connected yet.');">
+    <input type="text" placeholder="Your name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Phone (optional)">
+    <select><option>What do you need?</option><option>Full-home design</option><option>Room refresh</option><option>Color &amp; materials</option><option>Furniture &amp; styling</option><option>Renovation planning</option></select>
+    <textarea rows="4" placeholder="Tell us about your space"></textarea>
+    <button class="btn" type="submit">Send message</button>
+  </form>
+</section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Montdor Interiors. All rights reserved.</p>
+</footer>
+</body>
+</html>
